@@ -1,0 +1,39 @@
+Veri tabanı nedir?
+Veri tabanı, bilgi ve verilerin organize edilip depolandığı yapıdır. Bilgiler tablolar halinde düzenlenir 
+ve bu tablolar arasında ilişkiler kurularak verilerin tutulduğu bir sistemdir. 
+Veri tabanları, bilgilerin etkin bir şekilde saklanmasını, güncellenmesini ve erişilmesini sağlar.
+Örneğin, müşteri bilgileri, ürün katalogları veya finansal veriler gibi çeşitli alanlarda kullanılırlar.
+
+GELENEKSEL DOSYA SİSTEMLERİ VE VERİTABANI YÖNETİM SİSTEMLERİ 
+Kısaca geleneksel dosya sistemleri, her uygulamanın kendi dosya formatını kullanarak verileri sakladığı basit yapılar sunar. Bu sistemlerde veri erişimi karmaşık olabilir
+ve veri bütünlüğü zayıf olabilir. Veritabanı Yönetim Sistemleri (VTYS) ise verilerin etkin bir şekilde yönetilmesini sağlayan yazılım sistemleridir. 
+VTYS'ler, verileri mantıksal bir yapı içinde birleştirir ve güvenlik ve kurtarma mekanizmaları sunarak veri bütünlüğünü korur. 
+İlişkisel veritabanları en yaygın VTYS türlerindendir ve karmaşık sorguları ve büyük veri kümelerini işleyebilirler, bu da veri analizi ve raporlama için ideal bir çözümdür.
+
+VERİTABANI TÜRLERİ
+Hiyerarşik Veritabanı (Hierarchical Database): Verilerin ağaç yapısıyla organize edildiği bir veritabanı türüdür. 
+Her bir veri öğesi, bir üst öğeye bağlıdır. Örneğin, IBM'in IMS (Information Management System) sistemi bir hiyerarşik veritabanı örneğidir.
+Ağ Veritabanı (Network Database): Verilerin karmaşık ilişkilerle bağlantılı olduğu bir veritabanı türüdür. Her veri öğesi, birden fazla ilişki içerebilir ve
+her ilişki, bir veya daha fazla diğer veri öğesiyle bağlantılı olabilir. CODASYL veri modeli, ağ veritabanlarının örneklerinden biridir.
+İlişkisel Veritabanı (Relational Database): Verilerin tablolar halinde düzenlendiği ve tablolar arasındaki ilişkilerin belirli kurallara göre tanımlandığı bir veritabanı türüdür.
+SQL (Structured Query Language) sorgulama dili, ilişkisel veritabanlarına erişmek için kullanılır. MySQL, PostgreSQL ve Oracle gibi popüler ilişkisel veritabanı sistemleri bulunmaktadır.
+Nesneye Yönelik Veritabanı (Object Oriented Database): Verilerin nesneler halinde depolandığı ve bu nesnelerin birbirleriyle ilişkili olduğu bir veritabanı türüdür. 
+Her nesne, veri ve davranışları içeren bir yapıya sahiptir.
+
+VERİTABANI YÖNETİM SİSTEMİ YAZILIMLARI
+Microsoft SQL Server: Microsoft SQL Server, Windows tabanlı sistemler için geliştirilmiş güçlü bir ilişkisel veritabanı yönetim sistemidir. 
+Büyük kurumsal uygulamalar için yaygın olarak kullanılır.
+Oracle: Oracle, ilişkisel veritabanı yönetim sistemi için geliştirilmiş güçlü bir yazılımdır. İşletmelerin geniş çapta veri yönetimi ihtiyaçlarını karşılamak için kullanılır.
+MySQL: MySQL, açık kaynaklı bir ilişkisel veritabanı yönetim sistemidir. Web siteleri ve küçük ölçekli uygulamalar için popüler bir seçenektir.
+Sybase: Sybase, ilişkisel veritabanı yönetim sistemleri arasında önemli bir yere sahiptir. Özellikle finansal ve işletme alanlarında kullanılmak üzere tasarlanmıştır. Yüksek performansı ve güvenilirliğiyle bilinir.
+PostgreSQL: PostgreSQL, açık kaynaklı ve güçlü bir ilişkisel veritabanı yönetim sistemidir. Ölçeklenebilirlik ve veri bütünlüğü gibi özellikleriyle dikkat çeker.
+MS Access: MS Access, Microsoft'un ilişkisel veritabanı yönetim sistemi yazılımıdır. Kolay kullanımı ve entegrasyon yetenekleri ile küçük ve orta ölçekli veri tabanı projeleri için tercih edilir.
+DB2: DB2, IBM tarafından geliştirilen bir ilişkisel veritabanı yönetim sistemidir. Güçlü performansı, yüksek güvenilirliği ve geniş ölçeklenebilirliği ile bilinir.
+Kurumsal düzeydeki uygulamalar için ideal bir çözümdür.
+
+
+
+
+
+
+
